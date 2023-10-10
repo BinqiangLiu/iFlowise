@@ -7,4 +7,5 @@
    "routes": [
       { "src": "/(.*)", "dest": "./packages/ui/src/App.js" }
    ]
+   "outputDirectory": "./packages/ui/public"
 }
