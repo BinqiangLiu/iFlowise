@@ -5,6 +5,6 @@
       { "src": "https://github.com/BinqiangLiu/iFlowise/blob/main/packages/ui/src/App.js", "use": "@vercel/node" }
    ],
    "routes": [
-      { "src": "/(.*)", "dest": "/app.js" }
+      { "src": "/(.*)", "dest": "https://github.com/BinqiangLiu/iFlowise/blob/main/packages/ui/src/App.js" }
    ]
 }
