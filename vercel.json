@@ -2,9 +2,9 @@
    "version": 2,
    "name": "music-album",
    "builds": [
-      { "src": "https://github.com/BinqiangLiu/iFlowise/blob/main/packages/ui/src/App.js", "use": "@vercel/node" }
+      { "src": "./packages/ui/src/App.js", "use": "@vercel/node" }
    ],
    "routes": [
-      { "src": "/(.*)", "dest": "https://github.com/BinqiangLiu/iFlowise/blob/main/packages/ui/src/App.js" }
+      { "src": "/(.*)", "dest": "./packages/ui/src/App.js" }
    ]
 }
